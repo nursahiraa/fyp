@@ -1,6 +1,5 @@
-# Test Data Covid-19 Malaysia 
-## how many cases happens in malaysia starting from 2020. 
-### Metadata
+# Covid19 Data in Malaysia
+## Metadata
 
 1) `date`: yyyy-mm-dd format; data correct as of 1200hrs on that date
 2) `state`: name of state (present in state file, but not country file)
