@@ -8,7 +8,6 @@ This repository contains the workflow for building and evaluating machine learni
 - `datasets/`: Contains the datasets used for training and testing.
 - `models/`: Stores trained machine learning models.
 - `notebooks/`: Contains Jupyter Notebooks for training and evaluating models.
-- `preprocessing/`: Reusable scripts for data preprocessing.
 - `.gitignore`: Specifies files and folders to ignore in version control.
 
 ---
