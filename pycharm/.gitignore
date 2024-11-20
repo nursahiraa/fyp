@@ -1,9 +1,6 @@
 # created by virtualenv automatically
 # Ignore all files by default, but allow exceptions below
-*
 
-# Allow .gitignore to be tracked
-!.gitignore
 
 # Ignore virtual environment
 .venv/
