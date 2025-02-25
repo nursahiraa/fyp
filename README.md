@@ -10,6 +10,30 @@ This repository contains the workflow for building and evaluating machine learni
 - `notebooks/`: Contains Jupyter Notebooks for training and evaluating models.
 - `.gitignore`: Specifies files and folders to ignore in version control.
 - `requirements.txt`: Lists the dependencies required to run this project.
+- `train_model.py`: The main script for training the machine learning models.
+
+---
+
+## **Prerequisites**
+Before using this project, ensure you have the following installed:
+
+- **Python**: 3.8.20  
+  Check your Python version with:
+  ```bash
+  python --version
+  ```
+- **Conda**: 24.9.1  
+  Verify your Conda installation with:
+  ```bash
+  conda --version
+  ```
+- **Conda Environment**: `fypdatatest`  
+  Ensure you are in the correct environment:
+  ```bash
+  conda activate fypdatatest
+  ```
+- **DataSpell**: 2024.2.2 (Recommended for Jupyter Notebook users)  
+  If using JetBrains DataSpell, ensure you have the latest version.
 
 ---
 
@@ -25,7 +49,15 @@ This repository contains the workflow for building and evaluating machine learni
    pip install -r requirements.txt
    ```
 
+3. Activate the Conda environment:
+   ```bash
+   conda activate fypdatatest
+   ```
 
+4. Run model training:
+   ```bash
+   python train_model.py
+   ```
 
 ---
 
@@ -57,4 +89,3 @@ Or manually install the key dependencies:
 ```bash
 pip install numpy pandas scikit-learn scipy matplotlib seaborn statsmodels tensorflow h5py joblib
 ```
-
