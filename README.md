@@ -25,10 +25,7 @@ This repository contains the workflow for building and evaluating machine learni
    pip install -r requirements.txt
    ```
 
-3. Run model training:
-   ```bash
-   python train_model.py
-   ```
+
 
 ---
 
