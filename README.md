@@ -10,7 +10,6 @@ This repository contains the workflow for building and evaluating machine learni
 - `notebooks/`: Contains Jupyter Notebooks for training and evaluating models.
 - `.gitignore`: Specifies files and folders to ignore in version control.
 - `requirements.txt`: Lists the dependencies required to run this project.
-- `train_model.py`: The main script for training the machine learning models.
 
 ---
 
